@@ -24,3 +24,7 @@ This structure will seperate between handler query and handler http logic for be
 Since i don't have any smtp server and the time is not enough to set one, i set the queue to 5000 second, so we can notice there is a jobs that available in database table jobs.
 
 For testing manual we cann test with : php artisan email:welcome test@mail.com
+
+# Postman Colellection
+
+Import file Laravel-Test.postman_collection.json to postman to see all the route.
